@@ -21,7 +21,7 @@
 - `<section>` : regroupe un ensemble logique de contenu (souvent titré)
 - `<aside>`: infos ou actions secondaires (panneau latéral, résumé, panier)
 - `<nav>`: navigation ou contrôles (tri, filtres, pagination)
-- `<figure>` : image avec contexte visuel (option : <figcaption>)
+- `<figure>` : image avec contexte visuel (option : `<figcaption>`)
 
 ### ❌ Éviter les `<div>` - Utiliser des éléments sémantiques
 - `<div>` → `<article>`, `<section>`, `<aside>`
@@ -263,4 +263,5 @@ flex-col sm:flex-row          /* Column sur mobile, row sur desktop */
 ```
 
 ---
+
 
