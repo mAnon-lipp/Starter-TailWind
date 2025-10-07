@@ -14,6 +14,15 @@
 <nav>           <!-- Navigation/contrôles -->
 ```
 
+### 🧭 Quand utiliser quo
+- `<main>` : une seule fois, pour tout le contenu central 
+- `<header>` / `<footer>` : en haut/bas de la page ou d’un article
+- `<article>`: contenu indépendant ou réutilisable (carte, post, fiche)
+- `<section>` : regroupe un ensemble logique de contenu (souvent titré)
+- `<aside>`: infos ou actions secondaires (panneau latéral, résumé, panier)
+- `<nav>`: navigation ou contrôles (tri, filtres, pagination)
+- `<figure>` : image avec contexte visuel (option : <figcaption>)
+
 ### ❌ Éviter les `<div>` - Utiliser des éléments sémantiques
 - `<div>` → `<article>`, `<section>`, `<aside>`
 - `<div class="container">` → `<main>`, `<article>`
@@ -254,3 +263,4 @@ flex-col sm:flex-row          /* Column sur mobile, row sur desktop */
 ```
 
 ---
+
